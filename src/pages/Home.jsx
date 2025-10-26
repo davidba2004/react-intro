@@ -1,10 +1,11 @@
-import "../css/Home.css"
+import "./../css/Home.css";
 
 const Home = () => {
     return (
-        <div id="home">
-            <h1>I'm Home</h1>
-        </div>
+        <main id="home" className="main-content">
+            <h1>I love home</h1>
+            <h2>Home is for the heart</h2>
+        </main>
     );
 };
 
